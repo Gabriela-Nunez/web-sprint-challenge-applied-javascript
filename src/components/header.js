@@ -33,6 +33,9 @@ const Header = (title, date, temp) => {
 }
 
 const headerAppender = (selector) => {
+  const newHeader = Header('BloomTech Times', 'October 17, 2022', '39°')
+  document.querySelector(selector).appendChild(newHeader);
+
   // TASK 2
   // ---------------------
   // Implement this function taking a css selector as its only argument.
